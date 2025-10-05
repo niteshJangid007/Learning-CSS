@@ -1,0 +1,12 @@
+body{
+background-color:blueviolet;
+font-family:Arial,sans serif;
+}
+tabel{
+    border-collapse:collapse;
+    width:50%
+}
+table,th,td{
+    border:1px solid black;
+    padding:8px
+}
