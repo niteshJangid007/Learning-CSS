@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>service based website</title>
+        <style>
+           .back-video{
+                position: fixed;
+                right: 0;
+                bottom: 0;
+                min-width: 100%;
+                min-height: 100%;
+                z-index: -1;
+                object-fit: cover;
+            }
+            header {
+                position: fixed;
+                top: 0;
+                width: 100%;
+                background-color: rgba(0, 0, 0, 0.5);
+                color: rgb(241, 163, 163);
+                padding: 10px 0;
+                text-align: center;
+            }
+            .box{
+                position: absolute;
+                top:60%;
+                left:50%;
+                transform: translate(-50%,-50%);
+                width:50%;
+                padding:20px;
+                border-radius:10px;
+                text-align:center;
+                font-size:18px;
+            }
+            h1{
+                position:absolute;
+                top:40%;
+
+                width:100%;
+                text-align:center;
+            }
+        </style>
+    </head>
+    <body>
+         <video autoplay loop muted playsinline class ="back-video">
+            <source src="video-lg.mp4" type="video/mp4">
+        </video>
+        <header>
+            <nav>
+                <a href="Home.html">Home</a> |
+                <a href="About.html">About</a> |
+                <a href="Contact.html">Contact</a> |
+                <a href="Services.html">Services</a>
+            </nav>
+        </header>
+<h1>This is a website for public service</h1>
+<div class="box">
+    This website is designed to provide various public services <br>including information dissemination,<br> community support, and resource management. <br>Our goal is to enhance the quality of life for all<br> citizens by making essential services easily accessible online. 
+</div>
+    </body>
+</html>
